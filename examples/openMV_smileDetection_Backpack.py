@@ -51,7 +51,7 @@ sensor.set_auto_gain(False)
 
 
 # Load smile detection network
-net = nn.load('/openMV_smileDetection_smile.network')
+net = nn.load('/openMV_smileDetection_Backpack.network')
 
 face_cascade = image.HaarCascade("frontalface", stages=25)
 print(face_cascade)
